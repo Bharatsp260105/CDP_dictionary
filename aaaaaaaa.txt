@@ -1,0 +1,42 @@
+def a_function (string):
+
+    return len(string)
+
+
+print("length of the string ZEALCOLLEGE is :",a_function ("ZEALCOLLEGE"))
+print("length of the string COMPUTER is :",a_function ("COMPUTER") )        
+# ---------------------------------------------------------------------------
+
+def square (B):
+    square=[]
+    for A in B:
+        square.append(A**3)
+    return square
+
+B=[2,4,5,6,8];
+print(square(B))
+
+# -------------------------------
+
+def square (Z):
+    square=[]
+    for P in Z:
+        square.append(P**2)
+    return square
+
+Z=[2,4,5,6,8];
+print(square(Z))
+
+#---------------------------------
+
+def function (n1,n2=20):
+    print("no 1 is :",n1)
+    print("no 2 is :",n2)
+
+print("passing only one argument ")
+function(30)
+
+print("passing two argument")
+function(30,50)
+
+# -----------------------------------
